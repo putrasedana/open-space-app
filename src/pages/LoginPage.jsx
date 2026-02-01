@@ -16,24 +16,18 @@ function LoginPage() {
   return (
     <section className="login-page">
       <header className="login-page__hero">
-        <h1><IoEarthOutline /></h1>
+        <h1>
+          <IoEarthOutline />
+        </h1>
       </header>
       <article className="login-page__main">
         <h2>
-          See
-          {' '}
-          <strong>The World</strong>
-          ,
-          {' '}
-          <br />
-          Through Open Space.
+          See <strong>The World</strong>, <br />
+          Through Open Space App.
         </h2>
-
         <LoginInput login={onLogin} />
         <p>
-          Don&apos;t have an account?
-          {' '}
-          <Link to="/register">Register</Link>
+          Don&apos;t have an account? <Link to="/register">Register</Link>
         </p>
       </article>
     </section>
